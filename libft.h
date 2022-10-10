@@ -6,7 +6,7 @@
 /*   By: flweynan <flweynan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 19:06:28 by flweynan          #+#    #+#             */
-/*   Updated: 2022/10/10 19:13:55 by flweynan         ###   ########.fr       */
+/*   Updated: 2022/10/10 20:08:19 by flweynan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,5 +44,7 @@ size_t	ft_strlcpy(char *dest, char *src, unsigned int size);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
 
 void	*ft_memmove(void *dst, const void *src, size_t len);
+
+char    *ft_strchr(const char *str, int c);
 
 #endif
