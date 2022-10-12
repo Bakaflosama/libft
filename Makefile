@@ -21,7 +21,7 @@ SRCS		= 	ft_isalnum.c	\
 				ft_strrchr.c	\
 				ft_tolower.c	\
 				ft_toupper.c	\
-				
+				ft_substr.c		\
 
 OBJS		= ${SRCS:.c=.o}
 
@@ -37,7 +37,7 @@ NAME		= libft.a
 
 ${NAME}:	${OBJS}
 			ar rcs ${NAME} ${OBJS}
-			@echo "lbft has compiled succesfully"
+			@echo "libft has compiled succesfully"
 
 all:		${NAME}
 
